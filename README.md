@@ -40,7 +40,7 @@
 ---
 
 ## HTML, CSS 를 활용한 과제
--[Web_homework](https://github.com/Gugaeun/Homeworks/tree/main/Web_homework)
+-[Web_Practicum](https://github.com/Gugaeun/Homeworks/tree/main/Web_Practicum)
 - HTML, CSS 를 사용하여 웹 페이지를 만드는 과제
 
 ## 💡 What I Learned
