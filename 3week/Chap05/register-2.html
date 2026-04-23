@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <title>회원 가입</title>
+    <style>
+      #container {
+        width:600px;
+        margin:10px auto;
+      }
+    </style>
+    <link rel="stylesheet" href="css/register.css">
+  </head>
+  <body> 
+    <div id="container">
+      <h1>회원 가입을 환영합니다</h1>
+      <form>
+
+        <fieldset>
+          <legend>사용자 정보</legend>
+          <div>
+          <label for="ID">아이디</label>
+          <input type="text" id="ID" autofocus required placeholder="4자 ~ 10자 사이, 공백없이"> 
+          </div>
+          <br>
+          <div>
+          <label for="email">이메일</label>
+          <input type="text" id="email" required> 
+          </div>
+          <br>
+          <div>
+          <label for="password">비밀번호</label>
+          <input type="pwd" id="pwd" required placeholder="문자와 숫자, 특수 기호 포함" height="10">
+          </div>
+          <br>
+          <div>
+          <label for="pwdc">비밀번호 확인</label>
+          <input type="text" id="pwdc" required>
+          </div>
+        <br>
+
+        가입 경로
+        <select name="path">
+          <option value="pathResult">선택</option>
+          <option value="pathResult">블로그</option>
+          <option value="pathResult">지인 추천</option>
+          <option value="pathResult">인터넷</option>
+        </select>
+
+        <br>
+
+        <label for="memo">메모</label>
+        <textarea cols="70" rows="5" placeholder="요구사항을 입력해주세요."></textarea>
+        </fieldset>
+        <div id="buttons">
+          
+
+          
+        </div>
+      </form>
+    </div>           
+  </body>
+</html>
